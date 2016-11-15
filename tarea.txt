@@ -1,0 +1,26 @@
+# Muñeco de Nieve
+# ventana
+v 800 700 Muñeco_de_Nieve
+# Cuerpo
+c 400 500 200 white
+# Cabeza
+c 400 200 100 white
+# Brazos
+l 100 280 230 400 brown
+l 700 280 570 400 brown
+# Botones
+c 400 400 20 red
+c 400 500 20 red
+c 400 600 20 red
+# Ojos
+c 380 170 15 black
+c 420 170 15 black
+# Nariz
+t 400 200 410 230 390 230 orange
+# Boca
+l 350 250 380 280 blue
+l 380 280 420 280 blue
+l 420 280 450 250 blue
+# Sombrero
+r 320 80 480 120 black
+r 340 0 460 80 black
