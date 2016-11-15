@@ -1,0 +1,17 @@
+#Define una ventana de 900x700
+v 800 600 Demo
+#Rectangulo de 0,0 a 899,699(toda la ventana), relleno rojo
+r 0 0 799 599 red
+#Otro rectangulo negro de 20,20 a 780,580
+r 20 20 780 580 black
+#Lineas
+l 20 20 400 380 red
+l 780 20 400 380 red
+l 20 20 700 680
+l 780 20 200 350
+l 20 580 400 200 lightgray
+l 780 580 400 200 lightgray
+#Un circulo con centro en 200,300, radio 100, relleno blanco
+c 200 300 100 white
+#Un circulo con centro en 0,0, radio 200, relleno verde
+c 0 0 200 green
