@@ -1,0 +1,14 @@
+#Define una ventana de 800*600
+v 800 600 Demo
+#Rectángulo de 0,0 a 799,599(toda la ventana), relleno de verde
+r 0 0 799 599 green
+#Otro rectángulo blanco de 20,20 a 780,580
+r 20 20 780 580 white
+#Lineas 
+l 20 20 400 380
+l 780 20 400 380
+l 20 580 400 200 lightgray
+l 780 580 400 200 lightgray
+#Un circulo con centro en 400,300 radio 100, relleno café
+c 400 300 100 brown
+
