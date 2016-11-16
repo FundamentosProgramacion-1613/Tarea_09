@@ -1,0 +1,11 @@
+#Dibuja una ventana
+v 800 600 Paisaje
+#Dibuja Pasto
+r 0 400 800 600 green
+#Dibuja cielo
+r 0 0 800 400 lightblue
+#Dibuja arbol
+r 300 400 350 250 brown
+c 325 200 70 green
+#Dibuja sol
+c 700 100 70 yellow
