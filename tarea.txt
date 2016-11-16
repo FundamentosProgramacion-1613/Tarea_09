@@ -1,0 +1,17 @@
+#Define una ventana de 800x600
+v 800 600 Demostracion
+#Rectangulo de 0,0 a 799,599 (toda la ventana), relleno azul
+r 0 0 799 599 blue
+#Otro rectangulo de 20,20 a 780,580, relleno negro
+r 20 20 780 580 black
+#Lineas
+l 20 20 400 380 purple
+l 780 20 400 380 pink
+l 20 580 400 200 pink
+l 780 580 400 200 purple
+#Un circulo con centro en 400, 300, radio 100, relleno verde
+c 400 300 100 green
+#Un circulo con centro 250, 300, radio 50, relleno cafe
+c 250 300 50 brown
+#Un circulo con centro 550, 300, radio 50, relleno cafe
+c 550 300 50 brown
