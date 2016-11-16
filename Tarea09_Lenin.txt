@@ -1,0 +1,32 @@
+#Dibuja una ventana
+v 800 800 Prueba1 blue
+
+#Dibuja rectángulos
+r 150 150 650 650 
+r 200 200 600 600 red
+r 250 250 550 550 black
+
+#Dibuja círculos
+c 250 250 25 blue
+c 550 550 25 blue
+c 600 200 25 
+c 200 600 25 
+
+#Dibuja líneas
+l 0 0 150 150
+l 800 0 650 150 
+l 0 800 150 650 yellow
+l 800 800 650 650 yellow
+
+#DIBUJO NUEVO
+#Dibuja ventana nueva
+v 400 400 Paisaje lightblue
+
+#Dibuja un sol
+c 350 50 40 yellow
+
+#Dibuja pasto
+r 0 200 400 400 lightgreen
+
+
+ 
