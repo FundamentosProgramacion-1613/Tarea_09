@@ -1,0 +1,8 @@
+#este es mi programa
+v VentanaPrueba 600 600
+l 0 0 600 600 red
+r 200 200 400 400 blue
+#aqui dibujo unos circulos
+c 300 300 10 purple
+c 300 300 60 
+c 300 300 110
