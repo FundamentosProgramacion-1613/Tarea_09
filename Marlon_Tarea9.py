@@ -1,13 +1,17 @@
 #encoding: UTF-8
 #Marlon Brandon Velasco Pinello, A01379404
 #Tarea #9
+
+#importamos para poder elegir archivo
 from Myro import pickAFile
 from Graphics import *
 
+#funcion para crear ventana
 def crearVentana(parametro):
     v=Window(str(parametro[3]),int(parametro[1]),int(parametro[2]))
     return v
-    
+
+#funcion para dibujar rectangulo
 def dibujarRectangulo(parametro,v):
     rectangulo=Rectangle((int(parametro[1]),int(parametro[2])),(int(parametro[3]),int(parametro[4])))
     if len(parametro)<6:
@@ -16,6 +20,7 @@ def dibujarRectangulo(parametro,v):
         rectangulo.fill=Color(str(parametro[5]))
     rectangulo.draw(v)
 
+#funcion para dibujar circulos
 def dibujarCirculo(parametro,v):
     circulo=Circle((int(parametro[1]),int(parametro[2])),int(parametro[3]))
     if len(parametro)<5:
@@ -24,6 +29,7 @@ def dibujarCirculo(parametro,v):
         circulo.fill=Color(str(parametro[4]))
     circulo.draw(v)
 
+#funcion para dibujar lineas
 def dibujarLinea(parametro,v):
     linea=Line((int(parametro[1]),int(parametro[2])),(int(parametro[3]),int(parametro[4])))
     if len(parametro)<6:
@@ -32,6 +38,7 @@ def dibujarLinea(parametro,v):
         linea.color=Color(str(parametro[5]))
     linea.draw(v)
     
+#funcion principal main
 def main():
     nombreArchivo=pickAFile()
     entrada=open(nombreArchivo,"r")
@@ -52,9 +59,9 @@ def main():
         else:
             break
     #da pausa a la pantalla hasta que se da clic en ella
-    #v.getMouse()
+    v.getMouse()
     #cierra la pantalla
-    #v.close()
+    v.close()
     
 main()
 
