@@ -1,0 +1,16 @@
+#Dibujando un carro
+v 800 600 Carrito
+r 100 250 700 400 red
+r 250 100 550 250 red
+r 270 120 370 230 lightblue
+r 420 120 530 230 lightblue
+r 100 250 140 280 white
+r 100 280 140 290 yellow
+c 250 400 70 black
+c 250 400 50 gray
+c 550 400 70 black
+c 550 400 50 gray 
+l 50 470 750 470
+l 400 100 400 400
+
+
